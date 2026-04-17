@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geopatitas - Tienda Oficial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo__letter logo__letter--g">G</span>
+                <span class="logo__letter logo__letter--e">E</span>
+                <span class="logo__letter logo__letter--o">O</span>
+                <span class="logo__letter logo__letter--p">P</span>
+                <span class="logo__letter logo__letter--a">A</span>
+                <span class="logo__letter logo__letter--t">T</span>
+                <span class="logo__letter logo__letter--i">I</span>
+                <span class="logo__letter logo__letter--t">T</span>
+                <span class="logo__letter logo__letter--a">A</span>
+                <span class="logo__letter logo__letter--s">S</span>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav__link nav__link--active">Inicio</a>
+                <a href="#" class="nav__link">Productos</a>
+                <a href="#" class="nav__link">Ofertas</a>
+                <a href="#" class="nav__link">Contacto</a>
+            </nav>
+            <div class="header__actions">
+                <button class="btn btn--cart">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 22a1 1 0 0 1-1-1V9a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v12a1 1 0 0 1-1 1H9z"></path>
+                        <path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path>
+                    </svg>
+                    <span>Carrito</span>
+                </button>
+            </div>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">
+                Descubre nuestras <span class="text--green">patitas</span> geológicas
+            </h1>
+            <p class="hero__subtitle">Colección exclusiva de minerales y fósiles de todo el mundo</p>
+            <div class="hero__cta">
+                <button class="btn btn--primary">Ver Colección</button>
+                <button class="btn btn--secondary">Ofertas del Mes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="products">
+        <div class="container">
+            <h2 class="section__title">Productos <span class="text--yellow">Destacados</span></h2>
+            <div class="products__grid">
+                <article class="product-card">
+                    <div class="product-card__badge product-card__badge--new">Nuevo</div>
+                    <div class="product-card__image"></div>
+                    <h3 class="product-card__title">Amatista Geoda</h3>
+                    <p class="product-card__price">€45.00</p>
+                    <button class="btn btn--small">Añadir al Carrito</button>
+                </article>
+                
+                <article class="product-card">
+                    <div class="product-card__badge product-card__badge--sale">-20%</div>
+                    <div class="product-card__image product-card__image--amber"></div>
+                    <h3 class="product-card__title">Ámbar Fósil</h3>
+                    <p class="product-card__price product-card__price--old">€89.00</p>
+                    <p class="product-card__price product-card__price--new">€71.20</p>
+                    <button class="btn btn--small">Añadir al Carrito</button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-card__badge product-card__badge--hot">¡Oferta!</div>
+                    <div class="product-card__image product-card__image--quartz"></div>
+                    <h3 class="product-card__title">Cuarzo Rosa</h3>
+                    <p class="product-card__price">€32.50</p>
+                    <button class="btn btn--small">Añadir al Carrito</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="section__title">Únete a la <span class="text--red">Comunidad</span></h2>
+            <p>Recibe ofertas exclusivas y novedades geológicas</p>
+            <form class="newsletter__form">
+                <input type="email" placeholder="Tu email" class="newsletter__input">
+                <button type="submit"btn btn--primary">Suscribirse</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Geopatitas. Todos los derechos reservados.</p>
+        <div class="footer__links">
+                <a href="#">Términos</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Envíos</a>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
